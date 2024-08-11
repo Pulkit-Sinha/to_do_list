@@ -1,0 +1,45 @@
+name: to_do_list
+description: A very pretty and cool to do list application!
+
+publish_to: 'none'
+
+version: 1.0.0+11
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.1
+  audioplayers: ^6.0.0
+  path:
+  provider: ^6.1.2
+  flutter_vector_icons: ^2.0.0
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/Icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/Audio/
+    - assets/Audio/Task/valorant_kill_sounds/
+    - assets/Audio/SpecialTask/valorant_kill_sounds/
+  fonts:
+    - family: 'GoogleSans'
+      fonts:
+        - asset: Fonts\GoogleSans-Regular.ttf
+        - asset: Fonts\GoogleSans-Bold.ttf
+
+  
